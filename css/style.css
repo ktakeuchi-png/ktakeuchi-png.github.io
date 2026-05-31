@@ -39,13 +39,20 @@ a:focus {
 .site-header .site-name a {
   color: #1A1A1A;
   text-decoration: none;
+  display: inline-block;
 }
 
 .site-header .site-name a:hover,
 .site-header .site-name a:focus {
-  text-decoration: underline;
+  text-decoration: none;
   outline: 2px solid #0066CC;
   outline-offset: 2px;
+}
+
+.site-logo {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
 /* Main */
